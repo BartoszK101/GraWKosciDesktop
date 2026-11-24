@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Obrazy\kosc1.png" />
+    <None Remove="Obrazy\kosc2.png" />
+    <None Remove="Obrazy\kosc3.png" />
+    <None Remove="Obrazy\kosc4.png" />
+    <None Remove="Obrazy\kosc5.png" />
+    <None Remove="Obrazy\kosc6.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Obrazy\kosc1.png" />
+    <Resource Include="Obrazy\kosc2.png" />
+    <Resource Include="Obrazy\kosc3.png" />
+    <Resource Include="Obrazy\kosc4.png" />
+    <Resource Include="Obrazy\kosc5.png" />
+    <Resource Include="Obrazy\kosc6.png" />
+  </ItemGroup>
+
+</Project>
